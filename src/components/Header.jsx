@@ -29,7 +29,7 @@ class Header extends React.Component {
     render() {
         return (
             <Router>
-                <Container className="p-0 color:white" fluid={true}>
+                <Container className="p-0" fluid={true}>
                     <Navbar className="border-bottom" bg="light" variant="light" expand="lg" sticky="top" >
                         <Navbar.Brand>Robert Kane, Jr.</Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="hamburger-menu" />
