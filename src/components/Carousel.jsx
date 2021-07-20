@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import NRLogo from '../assets/images/NRLogo.png';
-import BILogo from '../assets/images/BILogo.jpg';
+import BILogo from '../assets/images/BILogo.png';
 import DHLogo from '../assets/images/DHLogo.jpg';
 import CryptopediaLogo from '../assets/images/CryptopediaLogo.png';
 import Tesla from '../assets/images/Tesla.png';
@@ -82,7 +82,6 @@ class Carousel extends React.Component {
             items
         });
     }
-
 
     makeItems = (items) => {
         return items.map(item => {
