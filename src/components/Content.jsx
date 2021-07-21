@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 function Content(props) {
     return (
         <Container fluid={true}>
-            <Row className="justify-content-center">
-                <Col md={8}>
+            <Row>
+                <Col>
                     {props.children}
                 </Col>
             </Row>

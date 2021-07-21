@@ -13,7 +13,7 @@ function AboutPage(props) {
                 <Row className="justify-content-center p-0 m-0">
                     <img src={Headshot} className='pb-5' alt='Me' />
                     <Content>
-                        <p>Hey there! I'm Bob Kane, a full-stack web developer based out of Brooklyn, NY with a background in finance and marketing.
+                        <p>Hey there! I'm Bob Kane, a fullstack web developer based out of Brooklyn, NY with a background in finance and marketing.
                             I'm currently working as a freelance web developer while I pursue my next full-time role. As an Ironhack bootcamp graduate,
                             I'm most familar with the technologies used in the MERN stack (MongoDB, Express, React, Node.js) as well as JavaScript, HTML, CSS, and WordPress. </p>
 

@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.92154af2.chunk.css",
-    "main.js": "/static/js/main.d1e15411.chunk.js",
-    "main.js.map": "/static/js/main.d1e15411.chunk.js.map",
+    "main.css": "/static/css/main.dac27931.chunk.css",
+    "main.js": "/static/js/main.b14f1e13.chunk.js",
+    "main.js.map": "/static/js/main.b14f1e13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.46aae05e.js",
     "runtime-main.js.map": "/static/js/runtime-main.46aae05e.js.map",
-    "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.ef2fe9cc.chunk.js": "/static/js/2.ef2fe9cc.chunk.js",
-    "static/js/2.ef2fe9cc.chunk.js.map": "/static/js/2.ef2fe9cc.chunk.js.map",
+    "static/css/2.ab014047.chunk.css": "/static/css/2.ab014047.chunk.css",
+    "static/js/2.8f05a3c0.chunk.js": "/static/js/2.8f05a3c0.chunk.js",
+    "static/js/2.8f05a3c0.chunk.js.map": "/static/js/2.8f05a3c0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
-    "static/css/main.92154af2.chunk.css.map": "/static/css/main.92154af2.chunk.css.map",
-    "static/js/2.ef2fe9cc.chunk.js.LICENSE.txt": "/static/js/2.ef2fe9cc.chunk.js.LICENSE.txt",
+    "static/css/2.ab014047.chunk.css.map": "/static/css/2.ab014047.chunk.css.map",
+    "static/css/main.dac27931.chunk.css.map": "/static/css/main.dac27931.chunk.css.map",
+    "static/js/2.8f05a3c0.chunk.js.LICENSE.txt": "/static/js/2.8f05a3c0.chunk.js.LICENSE.txt",
     "static/media/BILogo.c50e477e.png": "/static/media/BILogo.c50e477e.png",
-    "static/media/index.css": "/static/media/BackgroundImage.ca04c533.png",
+    "static/media/App.css": "/static/media/BackgroundImage.ca04c533.png",
     "static/media/BezosBot.22c30a6b.png": "/static/media/BezosBot.22c30a6b.png",
     "static/media/CryptopediaLogo.1e18591e.png": "/static/media/CryptopediaLogo.1e18591e.png",
     "static/media/DHLogo.c2597552.jpg": "/static/media/DHLogo.c2597552.jpg",
     "static/media/Headshot2021.952df572.png": "/static/media/Headshot2021.952df572.png",
     "static/media/NRLogo.c3230c52.png": "/static/media/NRLogo.c3230c52.png",
-    "static/media/Tesla.090e7613.png": "/static/media/Tesla.090e7613.png"
+    "static/media/Tesla.090e7613.png": "/static/media/Tesla.090e7613.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.46aae05e.js",
-    "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.ef2fe9cc.chunk.js",
-    "static/css/main.92154af2.chunk.css",
-    "static/js/main.d1e15411.chunk.js"
+    "static/css/2.ab014047.chunk.css",
+    "static/js/2.8f05a3c0.chunk.js",
+    "static/css/main.dac27931.chunk.css",
+    "static/js/main.b14f1e13.chunk.js"
   ]
 }

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LIIcon from '../assets/images/LinkedInIcon.png'
-import GHIcon from '../assets/images/GitHubIconWhite.png'
+import GHIcon from '../assets/images/GitHubIcon.png'
 
 function Footer() {
     return (

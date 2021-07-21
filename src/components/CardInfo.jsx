@@ -15,4 +15,4 @@ function CardInfo(props) {
 
 }
 
-export default CardInfo; 
+export default CardInfo;
