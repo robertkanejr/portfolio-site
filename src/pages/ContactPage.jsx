@@ -46,7 +46,7 @@ class ContactPage extends React.Component {
                 <Hero title={this.props.title} />
                 <Content>
                     <Form className="py-5 my-5 px-3 mx-3" action="contact" method="post">
-                        <Container className="">
+                        <Container>
                             <Form.Group>
                                 <Form.Label htmlFor="full-name">Full Name</Form.Label>
                                 <Form.Control id="full-name" name="name" type="text" placeholder="John Doe" size="lg" value={this.state.name} onChange={this.handleChange} />
