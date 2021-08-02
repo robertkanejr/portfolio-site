@@ -23,17 +23,17 @@ const Cards = [
     },
     {
         id: 2,
-        title: 'Dailee Holdings LLC.',
-        subTitle: 'Compliant Solutions for the Cannabinoid Industry',
-        imgSrc: DHLogo,
-        link: 'https://daileecbd.com/',
-    },
-    {
-        id: 3,
         title: 'Cryptopedia',
         subTitle: 'Cryptocurrency Trading Simulator',
         imgSrc: CryptopediaLogo,
         link: 'https://cryptopedia.netlify.app/',
+    },
+    {
+        id: 3,
+        title: 'Dailee Holdings LLC.',
+        subTitle: 'Compliant Solutions for the Cannabinoid Industry',
+        imgSrc: DHLogo,
+        link: 'https://daileecbd.com/',
     },
     {
         id: 4,

@@ -13,8 +13,8 @@ class Header extends React.Component {
         this.state = {
             title: 'Robert Kane, Jr.',
             home: {
-                title: 'DARE TO BE DIFFERENT',
-                subTitle: 'Strive for Excellence',
+                title: 'Strive For Excellence',
+                subTitle: 'BE RELENTLESS',
                 text: 'Check out my projects below'
             },
             about: {

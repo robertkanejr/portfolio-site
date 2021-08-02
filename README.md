@@ -10,6 +10,8 @@ Technologies used:
 Frontend - JavaScript, React, React Bootstrap, HTML, CSS, Bootstrap, Axios, Netlify
 Backend - Express, NodeJS, Nodemailer, CORS, Google Cloud Platform, GoogleAPIs, OAuth 2.0, Heroku
 
+Dependencies: axios, bootstrap, dotenv, react, react-bootstrap, react-router-dom, react-slick, slick-carousel
+
 How to run it:
 Frontend - npm start
 Backend - node server.js

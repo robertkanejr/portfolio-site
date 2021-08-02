@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
-
 class ContactPage extends React.Component {
     constructor(props) {
         super(props);

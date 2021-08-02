@@ -33,7 +33,6 @@ function AboutPage(props) {
             </Container>
         </div>
     );
-
 }
 
 export default AboutPage;

@@ -1,7 +1,6 @@
 import React from 'react';
 
 function CardInfo(props) {
-
     return (
         <div className="b-card-info">
             <p className="b-card-title">{props.title}</p>
