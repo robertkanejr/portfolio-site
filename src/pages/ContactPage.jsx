@@ -30,7 +30,7 @@ class ContactPage extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
-        Axios.post('https://rck-portfolio-backend.herokuapp.com/contact', this.state)
+        Axios.post('https://cors-anywhere.herokuapp.com/https://rck-portfolio-backend.herokuapp.com/contact', this.state)
             .then(res => {
                 return window.location.href = '/'
             })
