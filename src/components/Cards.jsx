@@ -4,6 +4,7 @@ import DHLogo from '../assets/images/DHLogo.jpg';
 import CryptopediaLogo from '../assets/images/CryptopediaLogo.png';
 import Tesla from '../assets/images/Tesla.png';
 import BezosBot from '../assets/images/BezosBot.png';
+import MM from '../assets/images/MindfulMoments.png';
 
 const Cards = [
     {
@@ -44,6 +45,13 @@ const Cards = [
     },
     {
         id: 5,
+        title: 'Mindful Moments',
+        subTitle: 'Meditation Web App',
+        imgSrc: MM,
+        link: 'https://mindful-moments.netlify.app/',
+    },
+    {
+        id: 6,
         title: 'Bezos World Domination Game',
         subTitle: 'Futuristic Shooter Game',
         imgSrc: BezosBot,
