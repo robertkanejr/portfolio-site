@@ -15,13 +15,13 @@ class Header extends React.Component {
             home: {
                 title: 'Strive For Excellence',
                 subTitle: 'BE RELENTLESS',
-                text: 'Check out my projects below'
+                text: 'Check out some of my work below'
             },
             about: {
                 title: 'About Me',
             },
             contact: {
-                title: 'Let\'s Talk',
+                title: 'Let\'s Connect',
             }
         }
     }
