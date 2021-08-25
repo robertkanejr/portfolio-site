@@ -2,6 +2,7 @@ import NRLogo from '../assets/images/NRLogo.png';
 import BILogo from '../assets/images/BILogo.png';
 import DHLogo from '../assets/images/DHLogo.jpg';
 import CryptopediaLogo from '../assets/images/CryptopediaLogo.png';
+import Trivia from '../assets/images/Trivia.png';
 import Tesla from '../assets/images/Tesla.png';
 import BezosBot from '../assets/images/BezosBot.png';
 import MM from '../assets/images/MindfulMoments.png';
@@ -31,27 +32,34 @@ const Cards = [
     },
     {
         id: 3,
+        title: 'Tech Trivia',
+        subTitle: 'Computer & Coding Trivia Game',
+        imgSrc: Trivia,
+        link: 'https://tech-trivia-rck.netlify.app/',
+    },
+    {
+        id: 4,
         title: 'Dailee Holdings LLC.',
         subTitle: 'Compliant Solutions for the Cannabinoid Industry',
         imgSrc: DHLogo,
         link: 'https://daileecbd.com/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Nikola Tesla Electrical Storm Tracker',
         subTitle: 'Track Storms Using Google Maps API',
         imgSrc: Tesla,
         link: 'https://Nikola-Tesla-electric.netlify.app/',
     },
     {
-        id: 5,
+        id: 6,
         title: 'Mindful Moments',
         subTitle: 'Meditation Web App',
         imgSrc: MM,
         link: 'https://mindful-moments.netlify.app/',
     },
     {
-        id: 6,
+        id: 7,
         title: 'Bezos World Domination Game',
         subTitle: 'Futuristic Shooter Game',
         imgSrc: BezosBot,
