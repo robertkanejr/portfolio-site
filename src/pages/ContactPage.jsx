@@ -1,5 +1,7 @@
 import React from 'react';
 import Axios from 'axios';
+import emailjs from 'emailjs-com';
+import apiKeys from '../apikeys';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -7,12 +9,14 @@ import Col from 'react-bootstrap/Col';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
+
 class ContactPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             name: '',
             email: '',
+            subject: '',
             message: '',
         }
     }
@@ -27,15 +31,26 @@ class ContactPage extends React.Component {
         })
     }
 
-    handleSubmit = (event) => {
-        event.preventDefault();
+    // handleSubmit = (event) => {
+    //     event.preventDefault();
 
-        Axios.post('https://radiant-shelf-29099.herokuapp.com/https://rck-portfolio-backend.herokuapp.com/contact', this.state)
-            .then(res => {
-                return window.location.href = '/'
-            })
-            .catch(err => console.log(err))
+    //     Axios.post('https://radiant-shelf-29099.herokuapp.com/https://rck-portfolio-backend.herokuapp.com/contact', this.state)
+    //         .then(res => {
+    //             return window.location.href = '/'
+    //         })
+    //         .catch(err => console.log(err))
 
+    // }
+
+    onSubmit = (e) => {
+        e.preventDefault()// Prevents default refresh by the browser
+        emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+            .then(result => {
+                alert('Message sent. Please await my reply.', result.text);
+            },
+                error => {
+                    alert('An error occured, please try again.', error.text)
+                })
     }
 
     render() {
@@ -43,7 +58,7 @@ class ContactPage extends React.Component {
             <div>
                 <Hero title={this.props.title} />
                 <Content>
-                    <Form className="py-5 my-5 px-3 mx-3" action="contact" method="post">
+                    <Form className="form py-5 my-5 px-3 mx-3" action="contact" method="post" onSubmit={this.onSubmit}>
                         <Container>
                             <Form.Group>
                                 <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -56,6 +71,13 @@ class ContactPage extends React.Component {
                                 <Form.Label htmlFor="email">Email</Form.Label>
                                 <Form.Control id="email" name="email" type="email"
                                     placeholder="email@example.com" size="lg" value={this.state.email}
+                                    onChange={this.handleChange} />
+                            </Form.Group>
+
+                            <Form.Group>
+                                <Form.Label htmlFor="subject">Subject</Form.Label>
+                                <Form.Control id="subject" name="subject" type="text"
+                                    placeholder="Reason for message" size="lg" value={this.state.subject}
                                     onChange={this.handleChange} />
                             </Form.Group>
 
@@ -74,8 +96,8 @@ class ContactPage extends React.Component {
                             </Button>
                         </Col>
 
-                        {/* {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>} */}
+                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
+                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                 </Content>
             </div>
