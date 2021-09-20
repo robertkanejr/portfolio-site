@@ -60,10 +60,10 @@ const Cards = [
     },
     {
         id: 7,
-        title: 'Bezos World Domination Game',
+        title: 'CEO Takeover',
         subTitle: 'Futuristic Shooter Game',
         imgSrc: BezosBot,
-        link: 'https://Bezos-domination-game.netlify.app/',
+        link: 'https://ceo-takeover.netlify.app/',
     },
 ]
 

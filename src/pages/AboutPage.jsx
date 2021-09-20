@@ -14,8 +14,8 @@ function AboutPage(props) {
                     <img src={Headshot} className='pb-5' alt='Me' />
                     <Content>
                         <p>Hey there! I'm Bob Kane, a full stack software engineer based out of Brooklyn, NY with hands-on experience designing and developing innovative
-                            web applications from concept to deployment. I'm a motivated self-starter with a passion for working with clients and colleagues to build practical, creative,
-                            and user-friendly solutions. I'm also a business professional with 8 years of results-driven leadership experience prior to pivoting into web development. </p>
+                            web applications from concept to deployment. I also have 8 years of results-driven leadership business experience prior to pivoting into web development.
+                            I'm a motivated self-starter with a passion for working with clients and colleagues to build practical, creative and user-friendly solutions. </p>
 
                         <p>Critical thinking and problem solving are in my nature, so it's fitting that I can fully integrate those skills into my career through coding.
                             I'm very solutions-oriented, and I instinctively try to understand why and how things work the way they do.
@@ -27,7 +27,7 @@ function AboutPage(props) {
 
                         <p> When I'm not busy coding, you can usually find me enjoying some of my favorite hobbies.
                             These include reading, meditation, yoga, exercising, snowboarding, DJing, fishing, cooking, and traveling. If you're interested in connecting,
-                            please feel free to drop me a line on the contact page!</p>
+                            please feel free to reach out to me via the contact page!</p>
                     </Content>
                 </Row>
             </Container>

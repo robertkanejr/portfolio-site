@@ -1,3 +1,5 @@
 node_modules
 .eslintcache
-apikeys.js
+package-lock.json
+apiKeys.js
+.env

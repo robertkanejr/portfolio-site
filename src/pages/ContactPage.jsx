@@ -1,7 +1,7 @@
 import React from 'react';
 import Axios from 'axios';
-import emailjs from 'emailjs-com';
-import apiKeys from '../apikeys';
+// import emailjs from 'emailjs-com';
+// import apiKeys from '../apiKeys';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -31,27 +31,27 @@ class ContactPage extends React.Component {
         })
     }
 
-    // handleSubmit = (event) => {
-    //     event.preventDefault();
+    handleSubmit = (event) => {
+        event.preventDefault();
 
-    //     Axios.post('https://radiant-shelf-29099.herokuapp.com/https://rck-portfolio-backend.herokuapp.com/contact', this.state)
-    //         .then(res => {
-    //             return window.location.href = '/'
-    //         })
-    //         .catch(err => console.log(err))
+        Axios.post('https://radiant-shelf-29099.herokuapp.com/https://rck-portfolio-backend.herokuapp.com/contact', this.state)
+            .then(res => {
+                return window.location.href = '/'
+            })
+            .catch(err => console.log(err))
 
-    // }
-
-    onSubmit = (e) => {
-        e.preventDefault()// Prevents default refresh by the browser
-        emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
-            .then(result => {
-                alert('Message sent. Please await my reply.', result.text);
-            },
-                error => {
-                    alert('An error occured, please try again.', error.text)
-                })
     }
+
+    // onSubmit = (e) => {
+    //     e.preventDefault()// Prevents default refresh by the browser
+    //     emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+    //         .then(result => {
+    //             alert('Message sent. Please await my reply.', result.text);
+    //         },
+    //             error => {
+    //                 alert('An error occurred, please try again.', error.text)
+    //             })
+    // }
 
     render() {
         return (
@@ -96,8 +96,8 @@ class ContactPage extends React.Component {
                             </Button>
                         </Col>
 
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+                        {/* {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
+                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>} */}
                     </Form>
                 </Content>
             </div>
